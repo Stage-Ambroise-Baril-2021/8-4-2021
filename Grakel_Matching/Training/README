@@ -1,0 +1,7 @@
+Ici, il faudrait 197 dossier nommés Graph-1,...,Graph-197.
+
+A l'intérieur de Graph-i, il faudrait 20 fichiers graphml, contenant des tree decompositions d'un même graphe instance, juxtaposés avec leurs instance.
+
+Chaque tree decomposition devrait aussi posséder un label renseignant son rang (de 1 à 20) relatif aux autres tree decompositions. Ces tree decompositions doivent s'appeler treei-j.ml (en remplacant i par le numéro de l'instance de 1 à 197, et j par le numéro de la tree decomposition entre 1 et 20).
+
+Le dossier Graph-i devrait aussi contenir un dossier "Instance" contenant l'instance sous forme d'un fichier graphml nommé graph-i.ml
